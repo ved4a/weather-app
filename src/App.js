@@ -2,8 +2,12 @@ import "./App.css";
 import Search from "./components/search/search";
 import CurrentWeather from "./components/current-weather/current-weather";
 import { OPENWEATHER_API_KEY, OPENWEATHER_API_URL } from "./api";
+import { useState } from "react";
 
 function App() {
+  const [currentWeather, setCUrrentWeather] = useState(null);
+  const [forecast, setForecast] = useState(null);
+
   const handleOnSearchChange = (searchData) => {
     const [lat, lon] = searchData.value.split(" ");
 
