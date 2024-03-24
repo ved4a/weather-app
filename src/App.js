@@ -4,7 +4,9 @@ import CurrentWeather from "./components/current-weather/current-weather";
 
 function App() {
   const handleOnSearchChange = (searchData) => {
-    console.log(searchData);
+    const [lat, lon] = searchData.value.split(" ");
+
+    const currentWeatherFetch = fetch(``);
   };
 
   return (
