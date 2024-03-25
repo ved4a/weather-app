@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "Metro Photograph";
+  src: url(../../fonts/MetroPhotograph-DemoVersion-Regular.otf);
+}
+
+@font-face {
+  font-family: "South Amsterdam";
+  src: url(../../fonts/South\ Amsterdam\ Demo.ttf);
+}
+
+@font-face {
+  font-family: "Bernat Burnoe";
+  src: url(../../fonts/Bernat\ Burnoe.ttf);
+}
+
 .title {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 600;
+  font-family: "Metro Photograph", sans-serif;
 }
 
 .daily-item {
@@ -21,6 +37,8 @@
 }
 
 .day {
+  font-family: "South Amsterdam", sans-serif;
+  font-size: 30px;
   color: #212121;
   flex: 1 1;
   font-weight: 600;
@@ -31,10 +49,12 @@
   flex: 1 1;
   margin-right: 15px;
   text-align: right;
+  font-weight: bold;
 }
 
 .min-max {
   color: #757575;
+  font-weight: bold;
 }
 
 .daily-details-grid {
@@ -49,9 +69,10 @@
 }
 
 .daily-details-grid-item {
+  font-family: "Bernat Burnoe";
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 30px;
   justify-content: space-between;
 }
 

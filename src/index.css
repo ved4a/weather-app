@@ -1,20 +1,16 @@
 @font-face {
-  font-family: "FairfaxHaxHDMedium";
-  src: url(/src/fonts/FairfaxHD.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "LoveMeChainV2MonoLight";
-  src: url(/src/fonts/LMCV2Mono_3.0.0213_with_jap-test30.ttf);
+  font-family: "Metro Photograph";
+  src: url(../src/fonts/MetroPhotograph-DemoVersion-Regular.otf);
 }
 
 body {
   margin: 0;
-  font-family: "LoveMeChainV2MonoLight", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Metro Photograph";
   font-size: 23px;
-  font-weight: normal;
+  font-weight: bold;
+  background-color: #f3e5ab;
 }
 
 code {
