@@ -11,6 +11,12 @@
   src: url(/src/fonts/FairfaxHD.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Metro Photograph";
+  src: url(/src/fonts/MetroPhotograph-DemoVersion-Regular.otf)
+    format("truetype");
+}
+
 .weather {
   width: 375px;
   border-radius: 20px;

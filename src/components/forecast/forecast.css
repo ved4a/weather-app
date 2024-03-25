@@ -13,6 +13,11 @@
   src: url(../../fonts/Bernat\ Burnoe.ttf);
 }
 
+@font-face {
+  font-family: "Code";
+  src: url(/src/fonts/CODE\ Bold.otf) format("truetype");
+}
+
 .title {
   font-size: 60px;
   font-weight: 600;
@@ -69,7 +74,7 @@
 }
 
 .daily-details-grid-item {
-  font-family: "Bernat Burnoe";
+  font-family: "Code";
   display: flex;
   align-items: center;
   height: 30px;
