@@ -18,6 +18,9 @@ const WEEK_DAYS = [
 
 const Forecast = ({ data }) => {
   const dayInAWeek = new Date().getDay();
+  WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(
+    WEEK_DAYS.slice(0, dayInAWeek)
+  );
 
   return (
     <>
