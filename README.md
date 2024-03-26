@@ -1,6 +1,6 @@
 # React Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \ \
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \\
 I created this weather application in order to practice React with a purpose that is useful to other people. In this app, I have used the OpenWorld API, and the GEODB API, in order to create a search component (for people to look up their city of choice), and for the weather + forecast themselves. It was a lot of hard work, and I'm glad with how it turned out!
 
 ## Available Scripts
