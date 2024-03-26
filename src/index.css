@@ -10,7 +10,13 @@ body {
   font-family: "Code";
   font-size: 23px;
   font-weight: bold;
-  background-color: #fdfd96;
+  /* background-color: #fdfd96; */
+  /* background-color: #757575; */
+  background: radial-gradient(
+    circle at 5.3% 17.2%,
+    rgb(255, 208, 253) 0%,
+    rgb(255, 237, 216) 90%
+  );
 }
 
 code {
