@@ -1,12 +1,6 @@
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%; /* Adjust the width as needed */
-  max-width: 600px; /* Set a maximum width to prevent it from spanning too wide */
-  color: #212121; /* Text color */
-  padding: 20px;
+.app-footer {
+  display: block;
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
+  color: #212121;
 }

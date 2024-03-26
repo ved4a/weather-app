@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>Copyright © ved4a</p>
+      <p className="app-footer">Copyright © ved4a</p>
     </footer>
   );
 };
