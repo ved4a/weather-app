@@ -4,16 +4,6 @@
 }
 
 @font-face {
-  font-family: "South Amsterdam";
-  src: url(../../fonts/South\ Amsterdam\ Demo.ttf);
-}
-
-@font-face {
-  font-family: "Bernat Burnoe";
-  src: url(../../fonts/Bernat\ Burnoe.ttf);
-}
-
-@font-face {
   font-family: "Code";
   src: url(/src/fonts/CODE\ Bold.otf) format("truetype");
 }
@@ -42,7 +32,7 @@
 }
 
 .day {
-  font-family: "South Amsterdam", sans-serif;
+  font-family: "Code", sans-serif;
   font-size: 30px;
   color: #212121;
   flex: 1 1;
@@ -51,6 +41,8 @@
 }
 
 .description {
+  font-family: "Code", sans-serif;
+
   flex: 1 1;
   margin-right: 15px;
   text-align: right;
@@ -60,6 +52,7 @@
 .min-max {
   color: #757575;
   font-weight: bold;
+  font-family: "Code", sans-serif;
 }
 
 .daily-details-grid {

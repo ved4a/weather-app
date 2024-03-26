@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Metro Photograph";
-  src: url(../src/fonts/MetroPhotograph-DemoVersion-Regular.otf);
+  font-family: "Code";
+  src: url(../src/fonts/CODE\ Bold.otf);
 }
 
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Metro Photograph";
+  font-family: "Code";
   font-size: 23px;
   font-weight: bold;
   background-color: #fffaa0;
